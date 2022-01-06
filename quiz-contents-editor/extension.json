@@ -1,0 +1,5 @@
+{
+  "id": "quiz-contents-editor",
+  "name": "quiz-contents-editor",
+  "srcdoc": "./build/index.html"
+}
