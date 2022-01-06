@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "contentful-extension-scripts start",
-    "build": "contentful-extension-scripts build",
+    "build": "npm run clean && contentful-extension-scripts build",
     "lint": "eslint ./ --ext .js,.jsx,.ts,.tsx && tsc -p ./ --noEmit",
     "test": "contentful-extension-scripts test --env=jsdom --watch",
     "test:coverage": "contentful-extension-scripts test --env=jsdom --coverage",
@@ -29,6 +29,7 @@
     "configure": "contentful space use && contentful space environment use",
     "login": "contentful login",
     "logout": "contentful logout",
+    "clean": "rimraf ./build",
     "help": "contentful-extension-scripts help"
   },
   "dependencies": {
