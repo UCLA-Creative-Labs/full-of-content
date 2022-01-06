@@ -1,5 +1,5 @@
 {
   "id": "quiz-contents-editor",
   "name": "quiz-contents-editor",
-  "srcdoc": "./build/index.html"
+  "src": "https://ucla-creative-labs.github.io/full-of-content/quiz-contents-editor/build/"
 }
